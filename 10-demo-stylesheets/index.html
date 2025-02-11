@@ -72,9 +72,16 @@
         <!-- example of an inline style. WE WILL NOT BE USING THIS METHOD!-->
         <section>
             <!-- We added the font class here
-
+            on the h2 we have two colors applied
+            - lightcoral (from css/styles.css)
+            - yellow from the style attribute.
+            yellow will apply because it's the last
+            possible time to apply a style
             -->
-            <h2 class="font danger">Applying Inline Styles</h2>
+            <h2
+                class="font danger"
+                style="color: yellow"
+            >Applying Inline Styles</h2>
             <p>Inline styles are the third way to apply CSS to HTML. However, they are by far the least desirable option
                 because they intertwine your content (HTML) and presentation (CSS), a slap in the face to best
                 practices.</p>
