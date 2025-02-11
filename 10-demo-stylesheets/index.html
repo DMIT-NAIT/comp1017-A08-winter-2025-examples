@@ -5,22 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS</title>
-    <!-- example of an embedded style sheet. WE WILL NOT BE USING THIS METHOD!-->
-    <style>
 
+    <!-- Add the link to our stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- example of an embedded style sheet. WE WILL NOT BE USING THIS METHOD!-->
+
+    <!--
+    Below here we've implemented the embedded style sheet but we'll be
+    using linked stylesheets for the rest of the course.
+    <style>
+        /* apply a color to the entire page. */
+        body {
+            background-color: steelblue;
+        }
+
+        /* another element that will apply a color. */
+        h1 {
+            font-size: 60px;
+            color: white
+        }
+        /* an important note is the
+            the selector is going match every element
+            there's two h2s so you're going to match two elements
+        */
+        h2 {
+            font-size: 40px;
+        }
     </style>
+    -->
 </head>
 
 <body>
     <header>
-        <h1>Cascading Style Sheets</h1>
+        <!-- we added a class here so that it will apply
+            to the h1
+        -->
+        <h1 class="font">Cascading Style Sheets</h1>
         <p>A style sheet is simply a text file that contains one or more rules that determine (through properties and
             values) how certain elements in your Web page should be displayed.</p>
     </header>
 
     <main>
         <section>
-            <h2>Creating an Embedded Style Sheet</h2>
+            <!-- We added the font class here -->
+            <h2 class="font success">Creating an Embedded Style Sheet</h2>
             <p>An embedded style sheet is the second way to apply CSS to a page. It lets you set the styles directly in
                 the HTML document you want to affect (typically it goes in the head). Because the styles are in that
                 HTML file only, the CSS won't apply to other pages like a liked external style sheet does, and you won't
@@ -37,7 +66,10 @@
         </section>
         <!-- example of an inline style. WE WILL NOT BE USING THIS METHOD!-->
         <section>
-            <h2>Applying Inline Styles</h2>
+            <!-- We added the font class here
+
+            -->
+            <h2 class="font">Applying Inline Styles</h2>
             <p>Inline styles are the third way to apply CSS to HTML. However, they are by far the least desirable option
                 because they intertwine your content (HTML) and presentation (CSS), a slap in the face to best
                 practices.</p>
