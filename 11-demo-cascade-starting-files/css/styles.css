@@ -37,7 +37,14 @@ p {
 
 
 /* Descendant Selectors */
+/* the h2 only in the footer */
+footer h2 {
+    color: #d5f2ff;
+}
 
+
+
+/* this can go to any number of descendants */
 
 /* Pseudo Class Selector */
 
