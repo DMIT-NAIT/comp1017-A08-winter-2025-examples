@@ -42,6 +42,18 @@ footer h2 {
     color: #d5f2ff;
 }
 
+nav ul {
+	background-color: #3340d4;
+}
+
+/* let's add a border with a property */
+nav ul li {
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: green;
+    /* there's a shorthand for this */
+    border-bottom: 2px dashed red
+}
 
 
 /* this can go to any number of descendants */
