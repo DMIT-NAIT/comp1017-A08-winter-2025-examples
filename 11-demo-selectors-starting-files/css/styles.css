@@ -17,6 +17,32 @@ body {
 
 }
 
+h1 {
+    text-transform: uppercase;
+    color: rgb(247, 173, 55);
+    border-bottom: 4px solid rgb(232, 108, 0);
+    padding: 48px;
+
+    /*
+
+    There are 4 values that could be applied:
+    padding-top, padding-right, padding-bottom, padding-left.
+
+    If we use only one value, it applies it to all 4 sides. You can also use shorthand: The order is always top-right-bottom-left (clockwise).
+    Example: padding: 48px 48px 48px 48px; */
+}
+
+h2 {
+    font-size: 25px;
+    padding: 5px 0 5px 0;
+}
+
+ul {
+    color: rgb(67, 44, 7);
+    list-style-type: square;
+    width: 500px;
+}
+
 /* Multiple Element Selector*/
 
 
