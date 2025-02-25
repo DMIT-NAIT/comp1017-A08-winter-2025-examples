@@ -2,7 +2,19 @@
 
 
 /* Element Selectors */
+body {
+    background-color: rgb(143, 55, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
 
+    margin: 0;
+    padding: 0;
+    /* MARGIN: pushes an elements away from other elements.
+     PADDING: goes around an element and creates whitespace around the element.
+    NOTE: if the value is zero we do not have to indicate a measurement type (px)  */
+
+
+}
 
 /* Multiple Element Selector*/
 
