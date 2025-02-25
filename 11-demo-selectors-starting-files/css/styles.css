@@ -2,6 +2,7 @@
 
 
 /* Element Selectors */
+/* the specificity weight of this element is 1 ! */
 body {
     background-color: rgb(143, 55, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
