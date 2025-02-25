@@ -1,8 +1,26 @@
 /* Check out the specificity (calculated weight) of the selector by hovering over it. */
 
 /* Element Selectors */
+body {
+    background-color: #d5f2ff;
+    color: black
+}
 
+ul {
+    background-color: #80008057;
+}
 
+main {
+    background-color: #0042ff57
+}
+
+footer {
+    background-color:#80008045;
+}
+
+a {
+    color: #d5f2ff;
+}
 /* Multiple Element Selectors */
 
 
