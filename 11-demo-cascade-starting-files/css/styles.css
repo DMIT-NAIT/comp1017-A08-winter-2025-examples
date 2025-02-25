@@ -22,6 +22,18 @@ a {
     color: #d5f2ff;
 }
 /* Multiple Element Selectors */
+h1,
+h2,
+p {
+  color: #4c2770;
+}
+
+/* we're going to override this style with the selector */
+h1,
+h2,
+p {
+  color: #003c81;
+}
 
 
 /* Descendant Selectors */
