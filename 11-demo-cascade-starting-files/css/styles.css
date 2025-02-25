@@ -59,6 +59,12 @@ nav ul li {
 /* this can go to any number of descendants */
 
 /* Pseudo Class Selector */
+/* let's make the font weight bold when we hover over the nav links*/
+nav ul li a:hover {
+    color: green;
+    font-weight: bold;
+}
+
 
 
 /* Class Selectors */
