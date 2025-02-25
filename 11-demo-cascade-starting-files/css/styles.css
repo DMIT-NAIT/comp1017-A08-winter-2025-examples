@@ -66,8 +66,11 @@ nav ul li a:hover {
 }
 
 
-
 /* Class Selectors */
-
+/* we're going to add a little bit of padding */
+ul.navigation {
+    padding: 15px 15px 15px 15px;
+    /* padding goes in the order top-right-bottom-left */
+}
 
 /* Descendant Combinator */
