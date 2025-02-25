@@ -74,3 +74,6 @@ ul.navigation {
 }
 
 /* Descendant Combinator */
+ul.navigation li {
+    padding: 5px
+}
