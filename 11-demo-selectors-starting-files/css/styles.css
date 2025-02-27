@@ -32,6 +32,11 @@ h1 {
     Example: padding: 48px 48px 48px 48px; */
 }
 
+/* let's add a hover to the h1 */
+/* h1:hover {
+    font-size: 60px;
+} */
+
 h2 {
     font-size: 25px;
     padding: 5px 0 5px 0;
@@ -43,6 +48,26 @@ ul {
     list-style-type: square;
     width: 500px;
 }
+
+
+
+
+
+
+/* selects the ul with the class of navigation */
+ul.navigation {
+    list-style: none;
+    margin-left: 10px;
+    padding: 10px;
+    border: 10px solid green;
+}
+
+ul.navigation li {
+    margin-top: 10px;
+    border: 10px solid rgb(108, 102, 102);
+    padding: 20px 45px;
+}
+
 
 /* Multiple Element Selector*/
 

@@ -3,3 +3,42 @@
 body {
     background-color: white;
 }
+
+/* to select the class title
+add a border of 3 like below
+add a padding of 48 on all sides
+margin bottom of 15.
+*/
+
+.title {
+    border: 3px solid black;
+    padding: 48px;
+    margin-bottom: 15px;
+}
+
+/*
+write a class selector named "padding"
+20px on the top and bottom
+40px on the left and right
+8*/
+.padding {
+    padding: 20px 40px
+}
+/*
+write a class called "border"
+border-width 5px
+border-style dashed
+border-color of red
+*/
+
+/*
+add these two class to section and see what happens.
+
+if done add a class of width
+specify widith
+change the border to 6px black solid.
+*/
+
+
+
+
