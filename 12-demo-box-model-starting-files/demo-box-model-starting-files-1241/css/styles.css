@@ -1,0 +1,5 @@
+
+/* browsers add default styling and sizing through their user agent stylesheet */
+body {
+    background-color: white;
+}
