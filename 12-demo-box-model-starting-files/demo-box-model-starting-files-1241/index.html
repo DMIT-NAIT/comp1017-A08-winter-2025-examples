@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Box Model</title>
+
+    <!-- Add a second a second style sheet above our custom
+        stylesheet
+    -->
+    <link rel="stylesheet" href="css/reset.css">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -12,11 +18,11 @@
         <h1 class="title">The Box Model</h1>
     </header>
     <main>
-        <section class="padding">
+        <section class="padding border margin special-width">
             <h2>What Is The Box Model</h2>
             <p>In a document, each element is represented as a rectangular box. Determining the size, properties — like its color, background, borders aspect — and the position of these boxes is the goal of the rendering engine. In CSS, each of these rectangular boxes is described using the standard box model. This model describes the content of the space taken by an element. Each box has four edges: the margin edge, border edge, padding edge, and content edge.</p>
         </section>
-        <section>
+        <section class="border">
             <h2>Padding</h2>
             <p>The padding property sets the padding space on all sides of an element. The padding area is the space between the content of the element and its border. Negative values are not allowed. The padding property is a shorthand to avoid setting each side separately (padding-top, padding-right, padding-bottom, padding-left).</p>
         </section>

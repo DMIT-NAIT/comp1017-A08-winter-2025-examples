@@ -22,7 +22,7 @@ write a class selector named "padding"
 40px on the left and right
 8*/
 .padding {
-    padding: 20px 40px
+    padding: 20px 40px;
 }
 /*
 write a class called "border"
@@ -30,6 +30,18 @@ border-width 5px
 border-style dashed
 border-color of red
 */
+.border {
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red
+}
+
+.margin {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
 
 /*
 add these two class to section and see what happens.
@@ -39,6 +51,9 @@ specify widith
 change the border to 6px black solid.
 */
 
-
+.special-width {
+    width: 500px;
+    border: 6px black solid;
+}
 
 
