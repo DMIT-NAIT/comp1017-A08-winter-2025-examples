@@ -1,0 +1,50 @@
+body {
+    font-size: 100%;
+    /* rgb color palette */
+    background-color: rgb(255, 255, 255);
+    font-family: verdana, geneva, sans-serif;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+     
+}
+
+
+/*typography*/
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   /* shorthand - 2 values: Top & Bottom (first value). Right & Left (second value). This applies 25px padding to top and bottom only */
+    padding: 25px 0;
+}
+
+
+
+
+/*layout*/
+
+
+
+/*classes*/
+
+
+
+/*calculating 2 Boxes:*/
+
+
+
+/*calculating 3 Boxes:*/
+
+
+
+/*calculating 4 Boxes:*/
+
+
+
+
+
+
+
