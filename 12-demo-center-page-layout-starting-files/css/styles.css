@@ -1,0 +1,80 @@
+
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    background-color: #fff9f0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /* line height changes the spacing between lines. Our reset has applied a 1.5 line height */
+    line-height: 1.25;
+
+}
+
+h1,
+h2,
+li {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+header,
+main,
+footer {
+    background-color: gainsboro;
+    padding: 24px 0 24px 0;
+    margin-bottom: 48px;
+}
+
+/* 
+CALCULATING CONTENT WIDTHS (LI):
+
+Total width of each li should be 225px. 
+
+Each li will have the following properties and values:
+
+Border of 2px (all around).
+Padding of 16px (all around).
+*/
+
+li {
+    background-color: ghostwhite;
+     
+}
+
+/* 
+CALCULATING CONTENT WIDTHS (SECTIONS):
+
+Total width of each section should be 900px.
+
+Each section will have the following properties and values:
+
+Border left of 10px (left only).
+Padding of 8px (all around).
+Margin of 30px (all around).
+*/
+
+section {
+    background-color: ghostwhite;  
+
+}
+
+/* 
+CALCULATING CONTENT WIDTHS (DIV):
+
+Total width of each footer div should be 320px. 
+
+Each div will have the following properties and values:
+
+Border of 1px (all around).
+Padding of 20px (all around).
+Margin bottom of 12px (bottom only).
+*/
+
+footer div {
+    background-color: ghostwhite;
+}

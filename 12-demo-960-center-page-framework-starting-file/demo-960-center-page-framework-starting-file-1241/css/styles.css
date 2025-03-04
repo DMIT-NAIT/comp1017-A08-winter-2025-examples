@@ -3,6 +3,8 @@ body {
 }
 
 .container {
+    /* constrain width */
     width: 960px;
+    /* center horizontally */
+    margin: 0 auto;
 }
-
