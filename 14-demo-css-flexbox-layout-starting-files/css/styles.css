@@ -7,7 +7,6 @@ body {
 .container {
     width: 960px;
     margin: 0 auto;
-     
 }
 
 
@@ -21,16 +20,24 @@ h1 {
     padding: 25px 0;
 }
 
-
-
-
 /*layout*/
+main {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+}
 
-
+footer {
+    background-color: rgb(204, 204, 204);
+    padding: 20px;
+    margin-top: 25px;
+}
 
 /*classes*/
 
-
+/* Create a flex class which will be applied to the parents */
+.flex {
+    display: flex;
+}
 
 /*calculating 2 Boxes:*/
 
