@@ -29,7 +29,7 @@ header {
     margin-top: 25px;
 }
 main {
- 
+
     margin: 40px 0;
 }
 
@@ -39,5 +39,33 @@ main {
 
 }
 
+/* I want you
+to create a class named "flex"
+that's going to use flex for display, use flex-wrap and a gap of 20px
+*/
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 
+    gap: 20px;
+}
+
+/* add some margin to the top and bottom. */
+.online-workshops div,
+.conferences div {
+    margin: 30px 0
+}
+
+/* Let's make the borders look like our wireframe */
+.online-workshops section,
+.conferences section {
+    border: 2px solid #bbb;
+    padding: 16px;
+    /* let's add a box shadow property which has the following values:
+    x-axis offset, y-axis offset, blur, color
+    */
+    box-shadow: 0 10px 12px #c5c5c5;
+    /* if you want to round the borders you need to use border radius */
+    border-radius: 10px;
+}
