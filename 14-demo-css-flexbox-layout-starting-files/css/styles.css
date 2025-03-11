@@ -69,27 +69,61 @@ we have two boxes so 900/2 is 450 for the width.
 
     let's calculcate width based on 960 which is the width of the container
     960 - the margin on both sides of the main of 20px = 920px
-    margin of between the items 20px
+    margin of between the items 20px = 880px
+
 
 */
 
 .green-paint {
     background-color: rgb(81, 238, 81);
     height: 150px;
+    width: 293.333333333px;
 }
 
 .yellow-paint {
     background-color: rgb(241, 219, 19);
     height: 150px;
+    width: 293.333333333px;
+    /* add the margin on the left and right */
+    margin: 0 20px;
 }
 
 .orange-paint {
     background-color: rgb(245, 174, 44);
     height: 150px;
+    width: 293.333333333px;
 }
 
+/* add a margin to all of these pieces on the top */
+.green-paint,
+.yellow-paint,
+.orange-paint {
+    margin-top: 30px;
+}
 
-/*calculating 4 Boxes:*/
+/*calculating 4 Boxes:
+
+let's do the math
+   960 - the margin on both sides of the main of 20px = 920px
+   920 - the margin between 3 is going to be 20px =860px
+   divide that into 4 boxes.
+
+*/
+
+footer .red-paint,
+footer .blue-paint {
+    height: 125px;
+    width: 215px;
+    margin: 0;
+}
+
+footer .blue-paint {
+    margin-left: 20px;
+}
+
+footer .margin-left {
+    margin-left: 20px;
+}
 
 
 
