@@ -24,5 +24,28 @@ p {
 .flex {
     display: flex;
     /* Without the line below there's no gap between the boxes */
-    /* column-gap: 30px; */
+    column-gap: 30px;
+}
+
+
+/* Let's do a little math on calculating the width of the paragraph
+960 - padding of all of the elements 16px *3 element * 2sides = 864px
+864px - colgap of 30px * 2 gaps = 804px
+804/3 = 268x
+*/
+
+p {
+    width: 268px;
+}
+
+/* Let's observe the behaviour with a flex wrap and row and column gaps. */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 30px;
+    row-gap: 50px;
+    /* you can use the shorthand */
+    gap:  30px;
 }
