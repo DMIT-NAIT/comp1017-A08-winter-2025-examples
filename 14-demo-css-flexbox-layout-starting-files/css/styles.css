@@ -40,7 +40,25 @@ footer {
 }
 
 /*calculating 2 Boxes:*/
+/* Let's do some width calculations
+padding on main 20px left and right.
+margin on the right box of 20px
+usable width = 960 - 40px (padding of main) - 20px (margin of right box)
+above equal 900
+we have two boxes so 900/2 is 450 for the width.
+*/
+.red-paint {
+    background-color: red;
+    height: 300px;
+    width: 450px;
+    margin-right: 20px;
+}
 
+.blue-paint {
+    background-color: blue;
+    height: 300px;
+    width: 450px;
+}
 
 
 /*calculating 3 Boxes:*/

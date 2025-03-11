@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* typography */
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+header {
+    text-align: center;
+    border-bottom: 5px solid #111;
+    margin-top: 25px;
+}
+main {
+ 
+    margin: 40px 0;
+}
+
+.online-workshops section,
+.conferences section {
+    border: 2px solid #bbb;
+
+}
+
+
+
