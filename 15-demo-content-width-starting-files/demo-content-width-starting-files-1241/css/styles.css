@@ -4,3 +4,25 @@
     background-color: #d0d0d0;
 }
 
+p {
+    background-color: tomato;
+    padding: 16px;
+    color: #fff;
+
+}
+
+/* change the brackground color of the bananas and cantloupe. */
+.bananas {
+    background-color: darkorange;
+}
+
+.cantaloupe {
+    background-color: gold;
+}
+
+/* let's add a flex with column gap and see what happens */
+.flex {
+    display: flex;
+    /* Without the line below there's no gap between the boxes */
+    /* column-gap: 30px; */
+}
