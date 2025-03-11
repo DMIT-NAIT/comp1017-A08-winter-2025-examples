@@ -62,7 +62,31 @@ we have two boxes so 900/2 is 450 for the width.
 
 
 /*calculating 3 Boxes:*/
+/*
+    add the flex to the parent on the html
+    calculate the width of box
+    create the declaration for the yellow, green and orange boxes.
 
+    let's calculcate width based on 960 which is the width of the container
+    960 - the margin on both sides of the main of 20px = 920px
+    margin of between the items 20px
+
+*/
+
+.green-paint {
+    background-color: rgb(81, 238, 81);
+    height: 150px;
+}
+
+.yellow-paint {
+    background-color: rgb(241, 219, 19);
+    height: 150px;
+}
+
+.orange-paint {
+    background-color: rgb(245, 174, 44);
+    height: 150px;
+}
 
 
 /*calculating 4 Boxes:*/
