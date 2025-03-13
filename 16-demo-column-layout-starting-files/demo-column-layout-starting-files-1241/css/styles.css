@@ -7,12 +7,33 @@ body {
     width: 960px;
     margin: 0 auto;
     background-color: #e2ebec;
-    
+
 }
 
 header {
     padding: 25px 16px 16px 16px;
 }
 
+/*  */
+section {
+    padding: 16px;
+}
 
+.card {
+    background-color: #ffffff;
+    margin-top: 25px;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
 
+    display: flex;
+    column-gap: 20px;
+
+}
+
+/*
+I want you to make the div and the image side by side
+with the image not distorted
+calculate the width so that it looks like the wireframe.
+
+*/
