@@ -69,3 +69,15 @@ that's going to use flex for display, use flex-wrap and a gap of 20px
     /* if you want to round the borders you need to use border radius */
     border-radius: 10px;
 }
+
+/* I want you to calculate the width of the
+
+.online-workshops section container so that they're side by side.
+
+960px container - 20px gap = 920px
+920px - 16px * 4 padding = 876px
+876px - 2px * 4 border = 868
+*/
+.online-workshops section {
+    width: 434px;
+}
