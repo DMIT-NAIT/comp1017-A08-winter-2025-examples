@@ -36,4 +36,14 @@ I want you to make the div and the image side by side
 with the image not distorted
 calculate the width so that it looks like the wireframe.
 
+960px - 20px column = 940px
+940px - 16px * 2 = 908px
+902 - 1 * 2 border = 906px
+
+906/2 = 453px
+
 */
+.card div,
+.card div img {
+    width: 453px
+}
