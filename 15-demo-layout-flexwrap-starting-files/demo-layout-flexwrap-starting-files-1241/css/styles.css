@@ -81,3 +81,18 @@ that's going to use flex for display, use flex-wrap and a gap of 20px
 .online-workshops section {
     width: 434px;
 }
+
+/*
+I want you to calculate the width of the
+.conferences section
+so that there's 3 across
+
+960px container - 20px * 2 = 920px
+920px - 16px *6 = 824px
+824px - 2px*6 = 812px
+
+
+*/
+.conferences section {
+    width: 270.66666px;
+}
