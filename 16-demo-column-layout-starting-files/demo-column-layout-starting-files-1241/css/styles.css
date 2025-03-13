@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #e2ebec;
+    
+}
+
+header {
+    padding: 25px 16px 16px 16px;
+}
+
+
+
