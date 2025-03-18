@@ -1,7 +1,7 @@
 body {
     font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+
 }
 
 .container {
@@ -16,3 +16,11 @@ header {
     margin-bottom: 25px;
 }
 
+/* create a declaration selecting a class named flex
+displays flex
+gap 20px
+uses flex wrap
+
+wrap the section in a div in the html add the class to it.
+
+*/
