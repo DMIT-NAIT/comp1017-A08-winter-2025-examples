@@ -30,8 +30,8 @@ wrap the section in a div in the html add the class to it.
     flex-wrap: wrap;
 }
 
-/* select every section the element with the lake-vacations class. */
-.lake-vacations section {
+/* select every section in the element with the lake-vacations class. */
+.lake-vacations section { /* a section inside of some element with the class lake-vacations*/
     border: 1px solid #000;
     padding: 18px;
     /*
@@ -62,7 +62,7 @@ last section span two columns we're going to do the math for this.
 
 I'm going select this with "each section with class col-2"
 */
-section.col-2 {
+section.col-2 { /* this selects section with the class col-2 */
     background-color: #b2eae2;
     /* do the math to make this
     span two columns based on the above
@@ -72,7 +72,6 @@ section.col-2 {
     + 1 gap = 20px
     + 1 (2sides) = 2px
     + 1 element padding (2sides) = 18*2px = 36px
-
 
     */
     width: 595px;
