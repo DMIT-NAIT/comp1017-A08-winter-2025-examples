@@ -24,3 +24,31 @@ uses flex wrap
 wrap the section in a div in the html add the class to it.
 
 */
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* select every section the element with the lake-vacations class. */
+.lake-vacations section {
+    border: 1px solid #000;
+    padding: 18px;
+    /*
+    If I want three across what is the width?
+
+    do the calculations.
+    if I have three across
+    Padding: 3*2(sides) * 18px = 108px
+    gap: 2(gaps) * 20px = 40px
+    Border: 3*2(sides) * 1 = 6px
+
+    The width = (total width - padding - gap - border)/3
+    width = (960-108-40-6)/3
+
+    width = 268.666666667px
+
+
+    */
+    width: 268.666666667px;
+}
