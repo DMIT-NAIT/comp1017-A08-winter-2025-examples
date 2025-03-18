@@ -56,3 +56,12 @@ wrap the section in a div in the html add the class to it.
     */
     width: 268px;
 }
+
+/* I want to essentially add a class will make the width of the
+last section span two columns we're going to do the math for this.
+
+I'm going select this with "each section with class col-2"
+*/
+section.col-2 {
+    background-color: #b2eae2
+}
