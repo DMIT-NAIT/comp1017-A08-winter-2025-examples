@@ -76,3 +76,11 @@ section.col-2 { /* this selects section with the class col-2 */
     */
     width: 595px;
 }
+
+/* nth child sleectors
+
+    let's select the third element and add a background color.
+*/
+.lake-vacations section:nth-child(3) {
+    background-color: #dfdfdf;
+}
