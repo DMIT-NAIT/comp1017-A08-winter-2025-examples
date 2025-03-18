@@ -48,6 +48,10 @@ wrap the section in a div in the html add the class to it.
 
     width = 268.666666667px
 
+    In characters (the text) reserves spaces between letters.
+    It's expecting a space after the last character in the paragraph.
+    Width will vary depending on the font but we're going to round down to
+    268px so that it fits
 
     */
     width: 268.666666667px;
