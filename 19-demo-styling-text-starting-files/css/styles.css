@@ -77,5 +77,16 @@ article img {
     display: block;
     margin: 0 auto;
     margin-bottom: 24px;
+}
 
+footer img {
+    display: block;
+    /* make the images a bit smaller */
+    width: 50px;
+}
+/* add a flex to the ul in the footer*/
+footer ul {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
