@@ -1,8 +1,10 @@
 body {
-    font-size: 100%; 
+    background-color: #ead9a8;
+    font-size: 100%;
     /* This will render as 16px as it is the default font size on most browsers */
-
     /* add the paragraph font (Merriweather) to the body element so all elements inherit it  */
+    font-family: "Merriweather", serif;
+
 }
 
 .container {
@@ -10,6 +12,7 @@ body {
     margin: 0 auto;
 }
 
+/* Typography */
 
 
 
