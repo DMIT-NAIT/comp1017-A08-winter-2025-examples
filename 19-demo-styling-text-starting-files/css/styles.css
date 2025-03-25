@@ -1,0 +1,15 @@
+body {
+    font-size: 100%; 
+    /* This will render as 16px as it is the default font size on most browsers */
+
+    /* add the paragraph font (Merriweather) to the body element so all elements inherit it  */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
