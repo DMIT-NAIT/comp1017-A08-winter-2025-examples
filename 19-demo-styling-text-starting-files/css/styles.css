@@ -43,4 +43,18 @@ article,
 footer {
     background-color: #fff;
     border: 3px solid #ef9c01;
+    margin-bottom: 48px;
+    padding: 24px;
+}
+
+header {
+    margin-top: 24px;
+    text-align: center;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
 }
