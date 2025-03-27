@@ -26,4 +26,36 @@ header div {
 h1 {
     font-family: "Oswald", sans-serif;
     font-weight: bold;
+    font-size: 45px;
 }
+
+/* Let's change the paragraph */
+header p {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    color: #ECE9E9;
+    font-size: 24px;
+}
+
+/* sections */
+section {
+    display: flex;
+    background-color: #fffbeb;
+    /* top right bottom left */
+    padding: 60px 151px 60px 30px;
+    margin-bottom: 43px;
+    gap: 24px;
+}
+
+.flex {
+    display: flex;
+}
+/* let's select the first title */
+section h2:nth-child(1) {
+    color: #01B3B8;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+/* We're going to wrap this up next class. */
