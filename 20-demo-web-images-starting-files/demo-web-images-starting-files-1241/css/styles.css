@@ -1,7 +1,8 @@
 body {
     font-size: 100%;
+    background-color: #ffffff;
     /* associate one font family to the body element. */
-  
+
 }
 
 .container {
@@ -9,3 +10,20 @@ body {
     margin: 0 auto;
 }
 
+/* Header section */
+header {
+    background-color: #92BEBF;
+    display: flex;
+    margin-bottom: 20px;
+}
+/* contains the text in the header */
+header div {
+    padding: 90px 0 0 50px;
+    color: #ffffff;
+}
+
+/* change the typography */
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
