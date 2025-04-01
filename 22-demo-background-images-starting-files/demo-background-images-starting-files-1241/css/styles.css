@@ -1,4 +1,4 @@
-/*
+/* 
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-weight: 900;
@@ -39,7 +39,7 @@ h2 {
     font-size: 24px;
     color: #76A10C;
     margin: 24px;
-
+   
 
 }
 
@@ -59,6 +59,7 @@ section p {
     font-size: 16px;
 
 }
+
 
 main {
     margin-bottom: 100px;
