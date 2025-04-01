@@ -44,7 +44,29 @@ h2 {
 }
 
 /* ************** header ************** */
+header {
+    /* you'll add a background color first in case the image doesn't load */
+    background-color: #00bc2f;
+    /* let's add the background image here. */
+    background-image: url('../img/banner-bg.jpg');
+    /* specify that it's no repeat */
+    background-repeat: no-repeat;
 
+    /* padding 16 top, 30 left, 54 from the right, 21 from the bottom. */
+    padding: 16px 54px 21px 30px;
+
+    margin-bottom: 50px;
+}
+
+/* if you use inline block it allows to a width and height on the element */
+img {
+    display: inline-block;
+}
+
+/* on the header image we're going to add a margin bottom */
+header img {
+    margin-bottom: 288px;
+}
 
 .flex {
     display: flex;
