@@ -49,6 +49,7 @@ section {
 
 .flex {
     display: flex;
+    gap: 20px;
 }
 /* let's select the first title */
 section h2:nth-child(1) {
@@ -58,4 +59,7 @@ section h2:nth-child(1) {
     font-size: 36px;
 }
 
-/* We're going to wrap this up next class. */
+/*
+For the paragraphs in a seciton I want you make the text lora.
+Using your knowledge of google fonts.
+*/
