@@ -63,3 +63,14 @@ section h2:nth-child(1) {
 For the paragraphs in a seciton I want you make the text lora.
 Using your knowledge of google fonts.
 */
+section p {
+    font-family: "Lora", serif;
+    font-size: 16px;
+}
+
+/* I want you to finish this example with all of the style and html for that final section. */
+/* change the background color */
+
+section:nth-child(2) {
+    background-color: #F0FDFA;
+}
