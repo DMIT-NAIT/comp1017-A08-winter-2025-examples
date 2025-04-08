@@ -117,5 +117,25 @@ main section {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-    color: #98421F
+    color: #98421F;
+    /* since the line height in figma is 45 and our font size
+    our line height is going to be 45/18 = 2.5
+    */
+    line-height: 2.5;
 }
+
+/* style the button */
+.book-now a {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #98421F;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 13px;
+    padding: 4px 9px;
+    /* distance to the bottom and distance to the text above in figma */
+    margin: 16px 0 86px 0;
+}
+
