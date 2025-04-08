@@ -109,6 +109,14 @@ main section {
 }
 
 .veil {
+    /* using "opacity" in an element modifies the entire elements
+    opacity and that's not what we want here.
+
+    So below we use an RGB value which includes opacity in the value.
+    In figma when you right click the color on the "veil" you can select
+    "RGB" instead of hex so you can have opacity as part of the color.
+    */
+    background-color: rgb(192, 141, 98, 0.2);
     padding-left: 48px;
 }
 
@@ -135,7 +143,10 @@ main section {
     background-color: #ffffff;
     border-radius: 13px;
     padding: 4px 9px;
-    /* distance to the bottom and distance to the text above in figma */
+    /* distance to the bottom and distance to the text above in figma
+    The way you do this in figma using ctrl and alt held together and
+    hover over the specific elements
+    */
     margin: 16px 0 86px 0;
 }
 
