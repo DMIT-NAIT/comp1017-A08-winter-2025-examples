@@ -57,4 +57,28 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* padding holding alt on the hiking girl logo in figma
+    is 10 top, 10 bottom, 14 left
+    padding on the right holding alt on the checkmark  in figma
+    is 32 to the right.
+    */
+    padding: 10px 32px 10px 14px;
+}
+
+/* flex everything in the header */
+.icons,
+.logo,
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+/* let's create the gaps */
+.logo {
+    column-gap: 20px;
+}
+
+.icons,
+header nav ul {
+    column-gap: 25px;
 }
