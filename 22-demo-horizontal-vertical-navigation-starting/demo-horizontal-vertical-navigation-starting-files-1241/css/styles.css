@@ -82,3 +82,25 @@ header ul {
 header nav ul {
     column-gap: 25px;
 }
+
+/* style the content of page in the main() */
+
+section {
+    background-color: orangered;
+    /* two mins add the background, make the background size cover */
+    background-image: url('../img/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+/* let's push everthing to right
+in figma you select the veil hold alt look on the left side
+it'll 495
+*/
+main section {
+    padding-left: 495px;
+}
+
+.veil {
+    padding-left: 48px;
+}
