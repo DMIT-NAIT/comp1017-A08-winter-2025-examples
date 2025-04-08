@@ -33,12 +33,19 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    color: #98421F;
+    padding-top: 19px;
+}
+
 h1 a {
     /* to remove the underline */
     text-decoration: none;
     color: #ffffff;
 }
-
 
 header nav a {
     font-size: 18px;
