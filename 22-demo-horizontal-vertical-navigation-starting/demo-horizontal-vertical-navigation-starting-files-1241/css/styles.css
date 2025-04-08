@@ -111,3 +111,11 @@ main section {
 .veil {
     padding-left: 48px;
 }
+
+.vertical-menu a {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #98421F
+}
