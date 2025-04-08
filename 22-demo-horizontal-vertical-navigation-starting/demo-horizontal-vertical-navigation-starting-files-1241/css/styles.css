@@ -10,6 +10,31 @@ body {
     font-style: normal;
     background-color: #C08D62;
     /* background image a little later on */
+    background-image: url('../img/bg-tile.png');
+    /*
+    a bit of a discussion about background-repeat
+    -default is repeat
+    - repeat-x goes and repeats horizontally
+    - repeat-y repeats repeats vertically
+    - no-repeat doesn't repeat at all.
+    */
+    background-repeat: no-repeat;
+    /* Let's talk about background position
+    you can explitly set the background position as
+    shown below.
+    */
+    background-position: 61px 589px;
+    /*
+    Also you can set the background position via
+    a description
+    background-position: left top;
+    background-position: right top;
+    background-position: left center;
+    background-position: left bottom;
+    background-position: center bottom;
+
+    and so on an soforth
+    */
 }
 
 
