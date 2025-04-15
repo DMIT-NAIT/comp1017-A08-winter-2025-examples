@@ -1,0 +1,40 @@
+body {
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: #374151;
+    font-size: 18px;
+    background-color: #F9FAFB;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    font-size: 53px;
+    font-weight: normal;
+    text-align: right;
+}
+
+
+header {
+    background-color: #93C5FD;
+    color: #F9FAFB;
+    padding: 44px 0 37px 0;
+    /* using flex here to take advantage of the justify-content property */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+header p {
+    font-size: 24px;
+    text-align: right;
+}
+
+/* forms */
+
