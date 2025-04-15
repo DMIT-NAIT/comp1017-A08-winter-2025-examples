@@ -56,3 +56,16 @@ label {
     display: block;
     margin-bottom: 7px;
 }
+
+/* let's style the inputs */
+
+input,
+textarea {
+    width: 583px;
+    border: 1px solid #D1D5DB;
+    border-radius: 3px;
+}
+
+input {
+    line-height: 48px;
+}
