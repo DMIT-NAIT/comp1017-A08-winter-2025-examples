@@ -64,8 +64,61 @@ textarea {
     width: 583px;
     border: 1px solid #D1D5DB;
     border-radius: 3px;
+    /* so it doesn't go over the icon lets add padding left */
+    padding-left: 40px;
 }
 
 input {
     line-height: 48px;
+}
+
+/* Note you can change the size of a textarea in the bottom right of the it.
+We're going to make it a fixed height and width
+*/
+
+textarea {
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 583px;
+    max-width: 583px;
+}
+
+/* we're going to add the icons as a background
+to the input because it's not necessary but it's a nice
+to have*/
+
+
+/* this is the single input in email */
+.email input {
+    background: url('../img/email.svg') no-repeat;
+    background-position: left 7px top 12px;
+}
+/* this is the single input in name */
+.name input {
+    background: url('../img/profile.svg') no-repeat;
+    background-position: left 7px top 12px;
+}
+/* this is the single input in phone */
+.phone input {
+    background: url('../img/phone.svg') no-repeat;
+    background-position: left 7px top 12px;
+}
+
+
+.button {
+    width: 209px;
+    background-color: #60A5FA;
+    color: #ffffff;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    /* change our mouse to the hand  */
+    cursor: pointer;
+    background-color: #93C5FD
+}
+
+address {
+    font-style: normal
 }
