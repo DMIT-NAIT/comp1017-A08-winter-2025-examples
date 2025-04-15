@@ -37,7 +37,7 @@
                             <!-- The label for connects to the input via the id of the input -->
                             <label for="email">Email</label>
                             <!-- attributes explainer:
-                            - "type" defined by the html standard some values: text, password, checkbox, radio, submit, reset, file and email
+                            - "type" defined by the html standard some values: text, tel, password, checkbox, radio, submit, reset, file and email
                             - "id" a unique identifier for the page
                             - "name" this is going to be what the server uses to identify the input.
                             -->
@@ -46,6 +46,16 @@
                         <div class="name">
                             <label for="name">Full Name</label>
                             <input type="text" id="name" name="name">
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <!-- for the message it's going to be a bit longer
+                         this is where we use the textarea element -->
+                        <div class="message">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
                         </div>
                     </form>
 
