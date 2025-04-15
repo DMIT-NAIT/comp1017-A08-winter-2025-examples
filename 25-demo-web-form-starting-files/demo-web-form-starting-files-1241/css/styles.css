@@ -11,6 +11,12 @@ body {
     margin: 0 auto;
 }
 
+/* let's add the flex class */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    /* the browser will distribute space evenly */
+}
 
 
 h1 {
@@ -37,4 +43,16 @@ header p {
 }
 
 /* forms */
+.contact-form {
+    width: 625px;
+}
 
+form {
+    margin: 35px 0;
+}
+
+/* make the inputs on their own line we're going to add 7px to the bottom for spacing */
+label {
+    display: block;
+    margin-bottom: 7px;
+}
