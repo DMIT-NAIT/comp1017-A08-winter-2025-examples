@@ -81,6 +81,8 @@ textarea {
     max-height: 200px;
     min-width: 583px;
     max-width: 583px;
+    background: url('../img/chat-bubble.svg') no-repeat;
+    background-position: left 7px top 12px;
 }
 
 /* we're going to add the icons as a background
