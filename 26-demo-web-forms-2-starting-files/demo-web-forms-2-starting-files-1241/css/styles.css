@@ -7,3 +7,32 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    margin-left:10px
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* is I'm going to make all of the inputs block */
+input {
+    display: block;
+}
+
+.checkbox input {
+    display: inline;
+}
+
+.submit-button,
+.checkbox {
+    margin-left: 10px;
+}
