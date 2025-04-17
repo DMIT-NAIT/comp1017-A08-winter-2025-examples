@@ -14,7 +14,44 @@
 
 <body>
     <div class="container">
-        <main> </main>
+        <main>
+            <!-- action where it'll submit -->
+            <form action="#" method="post">
+                <!-- let's create the markup for the ice cream -->
+                <fieldset>
+                    <legend>Choose you Flavour</legend>
+                    <!-- let's create all of the options -->
+                    <div>
+                        <label for="vanilla">Vanilla</label>
+                        <input type="radio" id="vanilla" name="flavour" value="vanilla">
+                    </div>
+                    <div>
+                        <label for="chocolate">Chocolate</label>
+                        <input type="radio" id="chocolate" name="flavour" value="chocolate">
+                    </div>
+                    <div>
+                        <label for="Cookies N Cream">Cookies N Cream</label>
+                        <input type="radio" id="Cookies N Cream" name="flavour" value="Cookies N Cream">
+                    </div>
+                    <div>
+                        <label for="strawberry">Strawberry</label>
+                        <input type="radio" id="strawberry" name="flavour" value="strawberry">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Order information</legend>
+                    <!-- docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/number -->
+                    <div>
+                        <label for="scoops">Pick the number of scoops (Limit 1 - 5) <span>*Required</span></label>
+                        <input id="scoops" type="number" min="1" max="5" required>
+                    </div>
+                    <div>
+                        <input type="date" id=""
+                    </div>
+
+                </fieldset>
+            </form>
+        </main>
     </div>
 </body>
 
