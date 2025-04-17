@@ -43,13 +43,33 @@
                     <!-- docs: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/number -->
                     <div>
                         <label for="scoops">Pick the number of scoops (Limit 1 - 5) <span>*Required</span></label>
-                        <input id="scoops" type="number" min="1" max="5" required>
+                        <input id="scoops" name="scoops" type="number" min="1" max="5" required>
                     </div>
                     <div>
-                        <input type="date" id=""
+                        <label for="date">Pick up Date</label>
+                        <!-- Docs for reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/date -->
+                        <input type="date" id="date" name="date">
                     </div>
-
                 </fieldset>
+                <fieldset>
+                    <legend>Account information</legend>
+                    <div>
+                        <label for="name">Full Name <span>*Required</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="password">Password (must be at least 10 characters) <span>*Required</span></label>
+                        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/password -->
+                        <input type="password" id="password" name="password" minlength="10" required>
+                    </div>
+                </fieldset>
+                <div>
+                    <input type="checkbox" id="agreement" value="agreed">
+                    <label for="agreement">Select to agree to terms</label>
+                </div>
+                <div>
+                    <input type="submit" value="Place Order">
+                </div>
             </form>
         </main>
     </div>
