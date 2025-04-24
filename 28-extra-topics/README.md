@@ -31,4 +31,38 @@
       - Django - https://tutorial.djangogirls.org/en/ - bigger frameowk.
       - FastAPI or FLask - lightweight
   - data science
-    - jupyter nootebooks (skip this ) google colab
+    - technologies to look into
+      - jupyter nootebooks (skip this ) google colab
+      - pandas, polars, pyspark
+      - matplotlib and seaborn
+      - learn maths
+      - learn a lot of this here: https://www.kaggle.com/learn
+- Be kind to your brain.
+  - treat your brain like a muscle
+    - what does that mean
+      - you can't run a marathon everyday
+      - you can't a personal best everyday
+    - when it's firing get it done.
+  - learn to focus.
+
+## What do to on learning prompt engineering?
+
+### Dans advice
+
+- ask the simplest questions so that you understand what's going on.
+  - the problems on prompt engineering is that folks don't understand the core fundamentals.
+- then build upon from there.
+- understand an overview of how not screw yourself security
+  - environment variables
+  - how to deploy properly
+  - you can prompt to ask for resource to look into this.
+- When you are prompting be as specific as possible.
+  - you have to know the difference when a tool is giving you garbage vs not garbage.
+
+
+## Business Analyst Stream, is it right for me?
+
+- notice the classes you don't like, learn from this, try to think content only
+- take more classes in the things you do like
+- read books on whatever topic.
+
